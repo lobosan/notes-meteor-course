@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-export default () => {
+const NotFound = () => {
   return (
     <div className="boxed-view">
       <div className="boxed-view__box">
@@ -12,3 +12,5 @@ export default () => {
     </div>
   );
 };
+
+export default NotFound;
